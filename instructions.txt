@@ -1,0 +1,15 @@
+Hey guys!  Hope you're feelin good for the green belt!  Get excited!  I whipped this up in lieu of recent events so everyone can have a laugh and write some awesome code.  This is lot of functionality for 4 hours!  Be smart!  Get the biggest features working first.  You can pass without making the whole thing perfect!  Attached are mockups and the DB structure I recommend.  
+
+Use the exams app (exams.codingdojo.com) to submit the app.  Please make sure to do a video to show us your working code.  
+
+ Here are the guidelines:
+
+1.  Login registration should work as one would expect. Complete with validation errors.
+
+2.  When you add an incident, create the incident in the DB with the creator_id set to the ID of the logged-in user.  Validate the form data to make sure the incident input field is not blank.  Make sure to report any errors back on the main page.
+
+3.  When I click the YES button on the table, that should either use a link or a form to tell the database that the logged in user had witnessed the event in the table.  This button should always appear in the table, even if the user has seen it.  That being said, this means you should prevent duplicate entries from going into the datebase.  IE, if the user clicks yes twice in a row, the DB should only get updated once.  
+
+4.  When I click the GO link in the table, that will take me to a page that displays all the info about a particular incident.  Most importantly, it should show all of the names of the people that have witnessed a particular event.  The delete button should either submit a form or a link that deletes the appropriate entry from the database.
+
+Best of luck!
